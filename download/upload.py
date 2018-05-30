@@ -3,8 +3,8 @@
 from qiniu import Auth
 from qiniu import BucketManager, build_batch_stat
 
-access_key = 'G7bo4JLF7F3_GMyI01Ov-Zx8QEpg2m7PDzVfbDyo'
-secret_key = '05hQ-XtA_cH4Q5obSmCJJEIc4W1CsiStXpFR5FyL'
+access_key = 'xxxxxxxxxxxx'
+secret_key = 'xxxxxxxxxxxx'
 q = Auth(access_key, secret_key)
 bucket = BucketManager(q)
 bucket_name = 'xgyw'
